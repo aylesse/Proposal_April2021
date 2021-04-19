@@ -180,35 +180,6 @@ test_gas=gas_usage_2000.iloc[26:]
 #print(test_gas)
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
 
 # In[15]:
 
@@ -282,23 +253,6 @@ plt.show()
 #California is high in charging stations and gas use
 #Texas is also high in gas use by does not have high EV charging 
 #gas use and EV charging are generally correlated in other (lower pop.) states
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
 
@@ -405,11 +359,6 @@ print(turb_counts.index)
 #confirming not all states included
 
 
-# In[ ]:
-
-
-
-
 
 # In[34]:
 
@@ -433,12 +382,6 @@ turb_counts_new['t_counts']=list(turb_counts)
 gas_E_T=pd.merge(gas_and_e, turb_counts_new, on="STATE")
 #print(gas_E_T)
 #merging to get data that has information on gas, EV charging, and turbines on a subset of states
-
-
-# In[ ]:
-
-
-
 
 
 # In[37]:
@@ -491,11 +434,6 @@ plt.show()
 #plotting number of EV charging stations versus turbine number
 
 
-# In[ ]:
-
-
-
-
 
 # In[39]:
 
@@ -535,17 +473,6 @@ texas_e_locs['ylat']=electric['latitude'][(electric['st_prv_code']=='TX') & (ele
 #print(texas_e_locs)
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
 
 # In[44]:
 
@@ -575,11 +502,6 @@ texas_e_locs['label']='EVC'
 texas_turb_locs['label']='turb'
 texas_locs=pd.concat([texas_e_locs,texas_turb_locs])
 #combine into one dataframe with labels to distinguish the two
-
-
-# In[ ]:
-
-
 
 
 
