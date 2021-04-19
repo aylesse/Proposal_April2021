@@ -1,5 +1,5 @@
-# DataIncubator_April2021
-Code for Data incubator Capstone Proposal April 2021
+# Proposal_April2021
+Code for Capstone Proposal April 2021
 
 Increasing the use of electric vehicles (EV) while decreasing the use of cars that run on fossil fuels has the potential to combat climate change and is a major goal of the Biden Administration. In addition to the economic hurdles that must be overcome to reach this goal in the United States, a major obstacle is the requirement of national EV charging station infrastructure. Optimal EV charging station placement is dependent on variables such as available green energy sources, traffic flow, parking space, etc.
 
