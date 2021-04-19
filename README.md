@@ -13,4 +13,4 @@ I first performed DBSCAN clustering on the locations of the EV charging stations
 
 I then set this disperse set of EV charging stations as the target of a linear regression model to predict locations separate from those already heavily populated by current EV charging stations. I trained the model on randomized subsets of the locations of the wind turbines and the truck stops. This model predicted new locations that are closer to the wind turbines and do not overlap with the current dense clusters of EV charging stations.  While this initial model is limited by the small number of truck stops available for training data, these preliminary analyses suggest that a richer training dataset that includes more information on highway locations, battery life, etc., could be used to predict optimal EV charging station locations.
 
-Links to data sources are provided in the comments.
+Links to data sources are provided in the comments of 021921.DIproposal.py.
